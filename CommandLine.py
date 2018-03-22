@@ -21,10 +21,6 @@ def note_to_sound(note):
         sound = dict[note]
         winsound.Beep(sound, 500)
 
-    else:
-        return None
-
-
 
 def main():
 
