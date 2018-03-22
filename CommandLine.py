@@ -7,7 +7,8 @@ def note_color_parser(note):
 
     dict = {'a': 'red', 'b': 'blue', 'c': 'green', 'd': 'purple', 'e': 'orange', 'f': 'gray', 'g': 'pink'}
 
-    color = dict[note]
+    if note in dict:
+        color = dict[note]
 
     return color
 
